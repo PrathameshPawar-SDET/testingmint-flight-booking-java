@@ -1,0 +1,62 @@
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - generic [ref=e9]: TestingMint Flights
+    - button "Login" [ref=e11] [cursor=pointer]
+  - generic [ref=e12]:
+    - heading "TestingMint's Premium Flight Booking" [level=1] [ref=e13]
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - generic [ref=e17] [cursor=pointer]:
+          - radio "One Way" [checked] [ref=e18]
+          - generic [ref=e19]: One Way
+        - generic [ref=e20] [cursor=pointer]:
+          - radio "Round Trip" [ref=e21]
+          - generic [ref=e22]: Round Trip
+      - generic [ref=e23]:
+        - generic [ref=e25]:
+          - generic [ref=e26]: FROM
+          - generic [ref=e27]:
+            - img [ref=e29]
+            - textbox "FROM input" [ref=e31]:
+              - /placeholder: Source
+              - text: Mumbai, BOM
+        - generic [ref=e33]:
+          - generic [ref=e34]: TO
+          - generic [ref=e35]:
+            - img [ref=e37]
+            - textbox "TO input" [ref=e40]:
+              - /placeholder: Dest
+              - text: Delhi, DEL
+        - generic [ref=e42]:
+          - generic [ref=e43]: DEPARTURE
+          - generic [ref=e44] [cursor=pointer]:
+            - img [ref=e46]
+            - generic [ref=e48]: Select Date
+            - textbox "Select travel date" [ref=e49]
+        - generic [ref=e50]:
+          - generic [ref=e51]: PASSENGERS
+          - generic [ref=e52]:
+            - img [ref=e54]
+            - combobox [ref=e57]:
+              - option "1 Passenger" [selected]
+              - option "2 Passengers"
+              - option "3 Passengers"
+              - option "4 Passengers"
+              - option "5 Passengers"
+              - option "6 Passengers"
+              - option "7 Passengers"
+              - option "8 Passengers"
+              - option "9 Passengers"
+      - button "SEARCH FLIGHTS" [ref=e59] [cursor=pointer]
+    - generic [ref=e62]:
+      - img [ref=e64]
+      - heading "Automation Testing Practice Platform" [level=2] [ref=e67]
+      - paragraph [ref=e68]: This complete flight booking website has been specifically created for automation testing practice and learning. Use this platform to practice your web automation skills with real-world scenarios including form filling, search functionality, filtering, seat selection, and booking flows.
+      - generic [ref=e69]:
+        - generic [ref=e70]: Selenium WebDriver
+        - generic [ref=e71]: Cypress
+        - generic [ref=e72]: Playwright
+        - generic [ref=e73]: Web Testing
+      - generic [ref=e74]: Perfect for learning test automation, practicing locator strategies, and mastering web testing frameworks
